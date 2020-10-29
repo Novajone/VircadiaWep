@@ -1,0 +1,79 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{7a14dd0c-37e6-4359-9ad5-7d23ba9e6fec}",
+    "type": "Model",
+    "age": 1051.7669677734375,
+    "ageAsText": "0 hours 17 minutes 31 seconds",
+    "lastEdited": 1565297055698510,
+    "userData": "{\"grabbableKey\":{\"invertSolidWhileHeld\":true},\"wearable\":{\"joints\":{\"RightHand\":[{\"x\":0.045345306396484375,\"y\":0.1990046501159668,\"z\":0.03554391860961914},{\"x\":-0.43883419036865234,\"y\":-0.46684980392456055,\"z\":-0.5387502908706665,\"w\":0.547081708908081}],\"LeftHand\":[{\"x\":-0.06922149658203125,\"y\":0.20457696914672852,\"z\":0.044708251953125},{\"x\":0.035721421241760254,\"y\":0.0012054443359375,\"z\":0.6234378814697266,\"w\":0.7810330390930176}]}},\"desktopHowToOverlay\":\"{a83b4431-db6c-49eb-b041-ec1d71e5a821}\"}",
+    "dimensions": {
+        "x": 0.11209513247013092,
+        "y": 0.24860507249832153,
+        "z": 1.3240734338760376
+    },
+    "rotation": {
+        "x": -0.17311358451843262,
+        "y": -0.34050506353378296,
+        "z": 0.07151901721954346,
+        "w": -0.9214160442352295
+    },
+    "created": 1565296030544509,
+    "lastEditedBy": "{0f12b51b-adb8-4786-aa72-6f06812f8564}",
+    "queryAACube": {
+        "x": -2.0277981758117676,
+        "y": -2.0277981758117676,
+        "z": -2.0277981758117676,
+        "scale": 4.055596351623535
+    },
+    "grab": {
+        "grabbable": false,
+        "equippable": true,
+        "equippableLeftPosition": {
+            "x": -0.06922149658203125,
+            "y": 0.20457696914672852,
+            "z": 0.044708251953125
+        },
+        "equippableLeftRotation": {
+            "x": 0.035721421241760254,
+            "y": 0.0012054443359375,
+            "z": 0.6234378814697266,
+            "w": 0.7810330390930176
+        },
+        "equippableRightPosition": {
+            "x": 0.045345306396484375,
+            "y": 0.1990046501159668,
+            "z": 0.03554391860961914
+        },
+        "equippableRightRotation": {
+            "x": -0.43883419036865234,
+            "y": -0.46684980392456055,
+            "z": -0.5387502908706665,
+            "w": 0.547020673751831
+        }
+    },
+    "velocity": {
+        "x": 2.6376801542937756e-7,
+        "y": 0.004394460469484329,
+        "z": 0.00025684258434921503
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "lifetime": 10800,
+    "script": "https://relieved-pruner.glitch.me/snipergun.js",
+    "scriptTimestamp": 1565297042701,
+    "modelURL": "https://animedeck.com/cdn/kasenitems/Firearms/dragonlore/Dragon_Lore/AWP_Dragon_Lore.FBX",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{2936ff2a-63ee-40e0-b2bb-827bd999993e}",
+  "Version": 123
+}
