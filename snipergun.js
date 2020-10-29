@@ -153,8 +153,8 @@ function exponentialSmoothing(target, current) {
               type: "Model",
               position: Vec3.mix(pickRay.origin, closest.intersection, 0.98),
                rotation: Quat.multiply(Quat.lookAtSimple(Vec3.ZERO, closest.surfaceNormal),Quat.rotationBetween(Vec3.FRONT, Vec3.UNIT_NEG_Y)),
-              modelURL: "https://thespot.nyc3.digitaloceanspaces.com/duck2.fbx",
-              dimensions: { x:0.2492, y: 0.5199, z: 0.5820 },
+              modelURL: "http://vegaslon.ddns.net:8080/3d%20plane.fbx",
+              dimensions: { x:1, y: 0, z: 1 },
               ignorePickIntersection: true,
               lifetime: 100,  // Delete after 5 minutes.
               visible: true,
