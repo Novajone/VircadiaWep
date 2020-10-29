@@ -299,7 +299,7 @@ function exponentialSmoothing(target, current) {
             if (headIndex) {
                 offset = offsetMultiplier* MyAvatar.getAbsoluteJointTranslationInObjectFrame(headIndex).y;
             }
-            result.leftHandPosition = Vec3.multiply(offset, {x: 0.25, y: 1.0, z: 1.0});
+            result.leftHandPosition = Vec3.multiply(offset, {x: 0.25, y: 1.0, z: 0.9});
             var yPosition = exponentialSmoothing(newLeftHandPositionAvatarFrame.y, previousLeftYPosition);
             result.leftHandPosition.y = yPosition;
             previousLeftYPosition = yPosition;
@@ -336,7 +336,7 @@ function exponentialSmoothing(target, current) {
             if (headIndex) {
                 offset = offsetMultiplier * MyAvatar.getAbsoluteJointTranslationInObjectFrame(headIndex).y;
             }
-            result.rightHandPosition = Vec3.multiply(offset, {x: 0.25, y: 1.0, z: 0.0});
+            result.rightHandPosition = Vec3.multiply(offset, {x: 0.25, y: 0.6, z: 0.9});
             var yPosition = exponentialSmoothing(newRightHandPositionAvatarFrame.y, previousRightYPosition);
             result.rightHandPosition.y = yPosition;
             previousRightYPosition = yPosition;
