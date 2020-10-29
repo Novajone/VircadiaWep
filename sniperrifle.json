@@ -61,7 +61,7 @@
     "damping": 0,
     "angularDamping": 0,
     "lifetime": 10800,
-    "script": "https://relieved-pruner.glitch.me/snipergun.js",
+    "script": "https://github.com/Novajone/VircadiaWep/blob/main/snipergun.js",
     "scriptTimestamp": 1565297042701,
     "modelURL": "https://animedeck.com/cdn/kasenitems/Firearms/dragonlore/Dragon_Lore/AWP_Dragon_Lore.FBX",
     "animation": {
