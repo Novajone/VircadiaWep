@@ -312,7 +312,7 @@ function exponentialSmoothing(target, current) {
             var newRotation = Quat.fromPitchYawRollDegrees(rotationAngles.x, 0, rotationAngles.z);
             previousLeftXRotation = xRotation;
             previousLeftZRotation = zRotation;
-            result.leftHandRotation = Quat.multiply(newRotation, Quat.fromPitchYawRollDegrees(80, -20, -90));
+            result.leftHandRotation = Quat.multiply(newRotation, Quat.fromPitchYawRollDegrees(90, 0, -90));
             
             return result;
         },
