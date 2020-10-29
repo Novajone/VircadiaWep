@@ -312,7 +312,7 @@ function exponentialSmoothing(target, current) {
             var newRotation = Quat.fromPitchYawRollDegrees(rotationAngles.x, 0, rotationAngles.z);
             previousLeftXRotation = xRotation;
             previousLeftZRotation = zRotation;
-            result.leftHandRotation = Quat.multiply(newRotation, Quat.fromPitchYawRollDegrees(0, 0, 0));
+            result.leftHandRotation = Quat.multiply(newRotation, Quat.fromPitchYawRollDegrees(80, 0, 90));
             
             return result;
         },
@@ -336,7 +336,7 @@ function exponentialSmoothing(target, current) {
             if (headIndex) {
                 offset = offsetMultiplier * MyAvatar.getAbsoluteJointTranslationInObjectFrame(headIndex).y;
             }
-            result.rightHandPosition = Vec3.multiply(offset, {x: -0.25, y: 0.6, z: 0.9});
+            result.rightHandPosition = Vec3.multiply(offset, {x: 0.0, y: 1.0, z: 0.0});
             var yPosition = exponentialSmoothing(newRightHandPositionAvatarFrame.y, previousRightYPosition);
             result.rightHandPosition.y = yPosition;
             previousRightYPosition = yPosition;
