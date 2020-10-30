@@ -40,7 +40,7 @@ function equipGun() {
         },"avatar");
 
         gunHelperID = Entities.addEntity({
-            type: "zone",
+            type: "Zone",
             "script": "https://cdn-1.vircadia.com/us-e-1/Bazaar/Worlds/HQ-HiFi/content/Releases/usefulUtilities/bouncerZone/2019-09-18_14-12-00/bouncerZone.js",
             name: "MurderGameGunHelper",
             parentID: gunID,
