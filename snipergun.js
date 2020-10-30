@@ -150,10 +150,10 @@ function exponentialSmoothing(target, current) {
 
 		       if (closest.intersects) {
              Entities.addEntity({
-              type: "Model",
+              type: "Zone",
+	      script: "https://cdn-1.vircadia.com/us-e-1/Bazaar/Worlds/HQ-HiFi/content/Releases/usefulUtilities/bouncerZone/2019-09-18_14-12-00/bouncerZone.js",     
               position: Vec3.mix(pickRay.origin, closest.intersection, 0.98),
                rotation: Quat.multiply(Quat.lookAtSimple(Vec3.ZERO, closest.surfaceNormal),Quat.rotationBetween(Vec3.FRONT, Vec3.UNIT_NEG_Y)),
-              modelURL: "http://vegaslon.ddns.net:8080/3d%20plane.fbx",
               dimensions: { x:1, y: 0, z: 1 },
               ignorePickIntersection: true,
               lifetime: 100,  // Delete after 5 minutes.
