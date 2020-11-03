@@ -267,8 +267,6 @@ function exponentialSmoothing(target, current) {
             _this.removeMouseEquipAnimation();
             if (currentHand === HAND.LEFT) {
                 mouseEquipAnimationHandler = MyAvatar.addAnimationStateHandler(_this.leftHandMouseEquipAnimation, []);
-            } else if (currentHand === HAND.RIGHT) {
-                mouseEquipAnimationHandler = MyAvatar.addAnimationStateHandler(_this.rightHandMouseEquipAnimation, []);
             }           
         },
         
