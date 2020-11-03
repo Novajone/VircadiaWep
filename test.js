@@ -1,5 +1,5 @@
 (function () {
-    var NyxAlpha1 = Script.require('Script.require('https://raw.githubusercontent.com/kasenvr/project-athena/feature/nyx-ui/scripts/system/ui/nyx/public/nyx-helpers.js');
+    Script.require('https://raw.githubusercontent.com/kasenvr/project-athena/feature/nyx-ui/scripts/system/ui/nyx/public/nyx-helpers.js');
 
     var _entityID;
     var gunID;
