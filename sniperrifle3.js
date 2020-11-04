@@ -370,7 +370,7 @@ function exponentialSmoothing(target, current) {
         },
 
         Controller.mousePressEvent.connect(function (event) {
-            if (event.button == "LEFT") {
+            if (event.isLeftButton) {
                 if (canFire) {
                     canFire = false;
                     _this.fire();
