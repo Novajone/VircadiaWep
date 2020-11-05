@@ -19,8 +19,8 @@
     var _this;
     var DISABLE_LASER_THRESHOLD = 0.2;
     var TRIGGER_CONTROLS = [
-        Controller.Standard.LT,
-        Controller.Standard.RT,
+        Controller.mousePressEvent,
+        Controller.mousePressEvent,
     ];
     var RELOAD_THRESHOLD = 0.90;
 
