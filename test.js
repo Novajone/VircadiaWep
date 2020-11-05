@@ -3,13 +3,22 @@
 
     var _entityID;
     var gunID;
-
-    function generateQuatFromDegreesViaRadians(rotxdeg,rotydeg,rotzdeg) {
-        var rotxrad = (rotxdeg/180)*Math.PI;
-        var rotyrad = (rotydeg/180)*Math.PI;
-        var rotzrad = (rotzdeg/180)*Math.PI;          
-        var newRotation = Quat.fromPitchYawRollRadians(rotxrad,rotyrad,rotzrad); 
-        return newRotation;
+    var BARREL_LOCAL_OFFSET = { x: 0, y: 0, z: 0 }; // Can adjust the position of the gun barrel for different shapes
+    var BARREL_LOCAL_DIRECTION = { x: 0, y: 0, z: 1000 }; // Which direction the gun shoots in
+    var canShoot = true;
+    var injector;
+    var canFire = true;
+    var mouseEquipAnimationHandler;
+    var desktopHowToOverlay = null;
+    var previousHMDActive;
+    var previousLeftYPosition = 0;
+    var previousLeftXRotation = 0;
+    var previousLeftZRotation = 0;
+    var previousRightYPosition = 0;
+    var previousRightXRotation = 0;
+    var previousRightZRotation = 0;
+    var offsetMultiplier = 0.8;
+ 
     }
 
     function equipGun() {
